@@ -14,6 +14,7 @@ const getSum = () => {
     newCell.textContent = sum;
     newCell.id = "ans";
 	newCell.className="prices";
+	newCell.classList.add('prices');
     newRow.appendChild(newCell);
     table.appendChild(newRow);
   
